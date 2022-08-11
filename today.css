@@ -1,0 +1,52 @@
+body {
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-shadow: 0px 0px 6px black;
+    background-image: url("https://www.newtimes.co.rw/sites/default/files/main/articles/2021/08/15/bb.jpg");
+    background-size: cover;
+    filter: contrast(white);
+    color: white;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+button {
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(101, 3, 3);
+}
+  
+.align {
+    padding-left: 80px;
+}
+
+#save-btn {
+    background: darkorange;
+}
+
+#incremenet-btn, #save-btn {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+p {
+    color: yellow;
+    text-shadow: 0px 0px 4px black;
+}
